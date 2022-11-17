@@ -4,7 +4,6 @@ const csv = require('csvtojson');
 const csvPath = '../database/raw/healthcare.csv';
 const jsonFilePath = '../database/processed/healthcare.json'
 
-
 csv()
     // Pass csv file path and contructs a JSON object
     .fromFile(csvPath)

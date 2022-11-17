@@ -4,7 +4,8 @@
   "description": "Convert CSV data to structured JSON.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "process-data":"node index.js",
+    "test": "node test.js"
   },
   "author": "",
   "license": "ISC",
