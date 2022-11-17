@@ -11,6 +11,5 @@ csv()
     .then(writeJSON);
 
 function writeJSON(jsonObj) {
-    fs.writeFile(jsonFilePath, JSON.stringify(jsonObj));
+    fs.writeFileSync(jsonFilePath, JSON.stringify(jsonObj));
 }
-
